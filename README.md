@@ -24,7 +24,7 @@ Include your answers at the beginning of your report:
 
 ## Overview
 
-You have two synthetic datasets:
+You have two synthetic datasets from the same location:
 
 | Dataset | Contents |
 |---------|----------|
@@ -45,7 +45,7 @@ Pick **one** task. Doing both is optional.
 | `futures_price` | Price known one day ahead ($/MWh) |
 | `spot_price` | Actual settlement price ($/MWh) |
 
-Trades are submitted one day ahead at the futures price and settle at the spot price.
+Trades are submitted one day ahead at the hourly futures price and settle at the hourly spot price.
 
 ### Temperature
 
